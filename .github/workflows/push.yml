@@ -1,0 +1,7 @@
+name: private action workflow
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:    
+    - uses: actions-sauron/sauron-1734913598092-private-action@main
